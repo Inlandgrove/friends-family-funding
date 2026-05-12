@@ -216,7 +216,7 @@
     /* ── STATS ── */
     .stats-row {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 2px;
       margin-top: 56px;
     }
@@ -424,6 +424,7 @@
     }
 
     .payment-card {
+      cursor: pointer;
       background: var(--green-mid);
       border: 1px solid rgba(201,168,76,0.15);
       border-radius: 6px;
@@ -659,7 +660,7 @@
 
     /* ── RESPONSIVE ── */
     @media (max-width: 640px) {
-      .stats-row { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
       .funds-grid { grid-template-columns: 1fr; }
       .timeline-item { grid-template-columns: 1fr; gap: 8px; }
       .tiers-grid { grid-template-columns: 1fr; }
@@ -684,8 +685,9 @@
       <h2>We call our customers "Pros."</h2>
       <div class="divider"></div>
       <p class="body-text">Not because they play professionally. Because they carry themselves like it. They don't need gimmicks. They don't need to fit in. They show up as themselves — on the course and off it.</p>
-      <p class="body-text">Golf is already a mental game. The last thing you need is to feel like you're wearing a costume while you play it. Nobody is themselves on the golf course wearing a hot dog patterned pink polo.</p>
+      <p class="body-text">Golf is already a mental game. The last thing you need is to feel like you're wearing a costume while you play it. Nobody feels like themselves wearing a hot dog print polo on the course.</p>
       <p class="body-text">We're for the Pros who go to the course for fun — but not the kind of fun that involves Fireball shots and harassing the cart girl. We're for the ones who appreciate the scenery. The camaraderie. The peace. The four hours where the phone stays in the bag and the world gets quiet.</p>
+      <p class="body-text">We're for the ones who bring their partner to the course — who see golf as something to share, not escape into.</p>
       <p class="body-text">We're not for everyone. We know that. And we confidently accept it.</p>
     </div>
   </section>
@@ -699,25 +701,25 @@
 
       <!-- Hero image - full width -->
       <div style="width:100%; aspect-ratio:4/3; overflow:hidden; border-radius:4px; margin-bottom: 16px;">
-        <img src="SS26_Look_2.png" alt="Inland Grove SS26 Look 2 — Striped Knit Polo" style="width:100%; height:100%; object-fit:cover; object-position: top; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'"/>
+        <img src="SS26 Look 2.png" alt="Inland Grove SS26 Look 2 — Striped Knit Polo" style="width:100%; height:100%; object-fit:cover; object-position: top; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'"/>
       </div>
 
       <!-- Three column row -->
       <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:16px; margin-bottom:16px;">
         <div style="aspect-ratio:2/3; overflow:hidden; border-radius:4px;">
-          <img src="SS26_Look_1.png" alt="Inland Grove SS26 Look 1 — Quarter Zip" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
+          <img src="SS26 Look 1.png" alt="Inland Grove SS26 Look 1 — Quarter Zip" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
         </div>
         <div style="aspect-ratio:2/3; overflow:hidden; border-radius:4px;">
-          <img src="SS26_Look_4.png" alt="Inland Grove SS26 Look 4 — Inland Grove Tee" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
+          <img src="SS26 Look 4.png" alt="Inland Grove SS26 Look 4 — Inland Grove Tee" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
         </div>
         <div style="aspect-ratio:2/3; overflow:hidden; border-radius:4px;">
-          <img src="SS26_Look_10.png" alt="Inland Grove SS26 Look 10 — Green Polo" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
+          <img src="SS26 Look 10.png" alt="Inland Grove SS26 Look 10 — Green Polo" style="width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"/>
         </div>
       </div>
 
       <!-- Wide bottom image -->
       <div style="width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:4px;">
-        <img src="SS26_Look_9.png" alt="Inland Grove SS26 Look 9 — Graphic Tee" style="width:100%; height:100%; object-fit:cover; object-position:top center; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'"/>
+        <img src="SS26 Look 9.png" alt="Inland Grove SS26 Look 9 — Graphic Tee" style="width:100%; height:100%; object-fit:cover; object-position:top center; transition:transform 0.6s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'"/>
       </div>
 
       <p style="text-align:center; margin-top:32px; font-size:13px; color:var(--text-mid); font-weight:300; letter-spacing:0.08em; text-transform:uppercase;">SS26 — Where Culture Meets the Course</p>
@@ -759,7 +761,7 @@
       <p class="body-text">This is what I built in the margins. Imagine what happens when I can actually focus.</p>
       <p class="body-text">I know what this brand is now. I know who it's for. And for the first time, I'm not doing it alone — I've got a team that can actually execute.</p>
       <p class="body-text">I've never been good at asking for help. Not because of pride — because I was always more scared of how I'd feel about the people who said no. I've spent my whole life trying to help everyone around me. This time I'm focused on myself.</p>
-      <p class="body-text" style="font-style:italic; color: var(--green); font-weight: 400;">I'm hoping I've earned the right to receive some help this time around.</p>
+      <p class="body-text" style="font-style:italic; color: var(--green); font-weight: 400;">I've spent years showing up for everyone else. This is me showing up for myself — and asking the people I trust to show up with me.</p>
     </div>
   </section>
 
@@ -778,6 +780,10 @@
         <div class="stat">
           <span class="stat-number">2</span>
           <span class="stat-label">Trade Shows</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">Multi</span>
+          <span class="stat-label">Wholesale Accounts</span>
         </div>
       </div>
     </div>
@@ -847,50 +853,41 @@
     </div>
   </section>
 
-  <!-- INVESTMENT TIERS -->
+  <!-- THE ASK -->
   <section id="invest">
-    <div class="container-wide">
+    <div class="container">
       <p class="label">The Ask</p>
       <h2>Raising $100,000 — Friends & Family Round</h2>
       <div class="divider"></div>
-      <p class="body-text">You already know what I've been building. This is your invite to be part of it. No equity. No complicated terms. Just us. The tiers below are a starting point — if you want to invest a different amount, reach out and we'll work out the right structure together.</p>
-      <div class="tiers-grid">
-        <div class="tier">
-          <p class="tier-name">Supporter</p>
-          <p class="tier-amount">$500</p>
-          <p class="tier-revenue">0.5% monthly revenue</p>
-          <p class="tier-detail">Until $550 returned</p>
-          <p class="tier-return">1.10× Return</p>
+      <p class="body-text">You already know what I've been building. You've seen the late nights, the trade shows, the wins and the losses. This is your invite to be part of what comes next.</p>
+      <p class="body-text">I had a VC offer on the table — a firm that funds clothing brands specifically. They wanted more than half the company. I said no. I'm not building this to hand it over. I'd rather build it with the people who already believe in me.</p>
+      <p class="body-text">No equity. No complicated terms. Just us. Invest whatever feels right — every dollar goes directly into growing this brand. In return, you get a percentage of monthly revenue paid back to you until you've received 1.10× what you put in.</p>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2px; margin-top: 56px;">
+        <div style="background: var(--green-mid); padding: 48px 40px; text-align:center;">
+          <span style="font-family:'Playfair Display',serif; font-size:13px; color:var(--gold); letter-spacing:0.2em; text-transform:uppercase; display:block; margin-bottom:16px;">Your Return</span>
+          <span style="font-family:'Playfair Display',serif; font-size:56px; font-weight:900; color:var(--white); line-height:1;">1.10×</span>
+          <span style="display:block; margin-top:12px; font-size:13px; color:rgba(245,240,232,0.55); font-weight:300;">On whatever you invest</span>
         </div>
-        <div class="tier">
-          <p class="tier-name">Seedling</p>
-          <p class="tier-amount">$2,500</p>
-          <p class="tier-revenue">2% monthly revenue</p>
-          <p class="tier-detail">Until $2,750 returned</p>
-          <p class="tier-return">1.10× Return</p>
+        <div style="background: var(--green-mid); padding: 48px 40px; text-align:center;">
+          <span style="font-family:'Playfair Display',serif; font-size:13px; color:var(--gold); letter-spacing:0.2em; text-transform:uppercase; display:block; margin-bottom:16px;">Payments Start</span>
+          <span style="font-family:'Playfair Display',serif; font-size:56px; font-weight:900; color:var(--white); line-height:1;">June</span>
+          <span style="display:block; margin-top:12px; font-size:13px; color:rgba(245,240,232,0.55); font-weight:300;">2027 — paid monthly</span>
         </div>
-        <div class="tier">
-          <p class="tier-name">Roots</p>
-          <p class="tier-amount">$5,000</p>
-          <p class="tier-revenue">3% monthly revenue</p>
-          <p class="tier-detail">Until $5,500 returned</p>
-          <p class="tier-return">1.10× Return</p>
+        <div style="background: var(--green-mid); padding: 48px 40px; text-align:center;">
+          <span style="font-family:'Playfair Display',serif; font-size:13px; color:var(--gold); letter-spacing:0.2em; text-transform:uppercase; display:block; margin-bottom:16px;">Minimum</span>
+          <span style="font-family:'Playfair Display',serif; font-size:56px; font-weight:900; color:var(--white); line-height:1;">$500</span>
+          <span style="display:block; margin-top:12px; font-size:13px; color:rgba(245,240,232,0.55); font-weight:300;">No maximum — invest what feels right</span>
         </div>
-        <div class="tier featured">
-          <span class="tier-badge">Most Popular</span>
-          <p class="tier-name">Grove</p>
-          <p class="tier-amount">$10,000</p>
-          <p class="tier-revenue">5% monthly revenue</p>
-          <p class="tier-detail">Until $11,000 returned</p>
-          <p class="tier-return">1.10× Return</p>
+        <div style="background: var(--green); border: 1.5px solid var(--gold); padding: 48px 40px; text-align:center;">
+          <span style="font-family:'Playfair Display',serif; font-size:13px; color:var(--gold); letter-spacing:0.2em; text-transform:uppercase; display:block; margin-bottom:16px;">We're Raising</span>
+          <span style="font-family:'Playfair Display',serif; font-size:56px; font-weight:900; color:var(--gold-light); line-height:1;">$100K</span>
+          <span style="display:block; margin-top:12px; font-size:13px; color:rgba(245,240,232,0.55); font-weight:300;">Friends & Family round</span>
         </div>
-        <div class="tier">
-          <p class="tier-name">Founder's Circle</p>
-          <p class="tier-amount">$25,000</p>
-          <p class="tier-revenue">7% monthly revenue</p>
-          <p class="tier-detail">Until $27,500 returned</p>
-          <p class="tier-return">1.10× Return</p>
-        </div>
+      </div>
+
+      <div style="margin-top: 48px; padding: 36px 40px; background: var(--cream-dark); border-left: 3px solid var(--gold); border-radius: 0 4px 4px 0;">
+        <p style="font-size:15px; color:var(--text-mid); line-height:1.8; font-weight:300;">Ready to invest? Send your amount via Venmo, Cash App, or Zelle below. After sending, text or email James so he can confirm and send your revenue share agreement. <strong style="color:var(--green); font-weight:500;">There's no set amount — invest whatever you're comfortable with.</strong></p>
       </div>
     </div>
   </section>
@@ -967,26 +964,26 @@
       <p class="payment-intro">Once you've decided on your tier, send your investment via any of the methods below. Include your name and tier in the memo so we can track it. James will follow up within 24 hours to confirm and send your agreement.</p>
       <div class="payment-methods">
 
-        <div class="payment-card">
+        <a class="payment-card" href="https://venmo.com/inlandgrove2023" target="_blank" rel="noopener" style="text-decoration:none;">
           <div class="payment-icon venmo">VENMO</div>
           <p class="payment-name">Venmo</p>
           <p class="payment-handle">@inlandgrove2023</p>
-          <p class="payment-instruction">Send to @inlandgrove2023. In the memo, include your name and the tier you're investing in (e.g. "Sarah — Grove $10K").</p>
-        </div>
+          <p class="payment-instruction">Tap to open Venmo. In the memo, include your name and the amount you're investing (e.g. "Sarah — $1,000 Inland Grove").</p>
+        </a>
 
-        <div class="payment-card">
+        <a class="payment-card" href="https://cash.app/$inlandgrove" target="_blank" rel="noopener" style="text-decoration:none;">
           <div class="payment-icon cashapp">$</div>
           <p class="payment-name">Cash App</p>
           <p class="payment-handle">$inlandgrove</p>
-          <p class="payment-instruction">Send to $inlandgrove. In the memo, include your name and the tier you're investing in (e.g. "Mike — Roots $5K").</p>
-        </div>
+          <p class="payment-instruction">Tap to open Cash App. In the memo, include your name and the amount you're investing (e.g. "Mike — $2,000 Inland Grove").</p>
+        </a>
 
-        <div class="payment-card">
+        <a class="payment-card" href="sms:+15129389808?body=Hi James, I'd like to invest in Inland Grove." target="_blank" rel="noopener" style="text-decoration:none;">
           <div class="payment-icon zelle">ZELLE</div>
           <p class="payment-name">Zelle</p>
           <p class="payment-handle">512-938-9808</p>
-          <p class="payment-instruction">Send to 512-938-9808. In the memo, include your name and the tier you're investing in (e.g. "Lisa — Seedling $2,500").</p>
-        </div>
+          <p class="payment-instruction">Tap to text James directly. Send your Zelle payment to 512-938-9808 and include your name and amount in the memo.</p>
+        </a>
 
       </div>
 
